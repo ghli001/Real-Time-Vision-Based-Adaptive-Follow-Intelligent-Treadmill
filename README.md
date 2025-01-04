@@ -1,2 +1,3 @@
 # Real-Time-Vision-Based-Adaptive-Follow-Intelligent-Treadmill
-Codes including the marker-based and marker- free methods for the treadmill
+Codes including the marker-based and marker- free methods for the treadmill.
+The system control program for each model is divided into three parts, labeled as ‘motor’, ‘pid’ and ‘main’ respectively. Among them, ‘motor’ is used to control the motor’s forward and reverse rotation and speed control. The ‘pid’ part is used for PID control of the PWM signal. The ‘main’ part serves as the main program that calls ‘motor’ and ‘pid’ used for object recognition, extraction of pixel center positions, and calculation of center point offset displacement.
